@@ -19,7 +19,7 @@
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": " CI= npm run build"
+    "build": " CI= react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
